@@ -1,0 +1,18 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: "Roboto", sans-serif;
+}
+p{
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
