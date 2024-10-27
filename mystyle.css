@@ -1,8 +1,18 @@
 /*global*/
-*{
-    margin: 0;
-    padding: 0;
+
+/*header*/
+.site-header{
+    background-image: url(./img/header.jpg);
+    background-position-x: center center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
 }
+.site-header a {
+color: white;
+}
+
 body{
 font-family: "Roboto", sans-serif;
 }
@@ -15,4 +25,63 @@ a{
 h1,h2,h3{
     padding-bottom: 20px;
     padding-top: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about-container {
+    display: flex;
+    gap: 20px;
+}
+.houses-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* houses */
+.houses-item {
+    background-color: #DEDEDE;
+    margin-right: 10px;
+}
+
+.houses-item-img {
+    width: 100%;
+    height: auto;
+}
+
+.houses-item-text {
+    padding: 20px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.icon-container img {
+    margin-right: 20px;
+}
+
+.icons-list {
+    display: flex;
+   justify-content: space-between;
+}
+
+/* utilities */
+.btn {
+    display: block;
+    background-color: orange;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
