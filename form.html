@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Informaiton</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" placeholder="Type your name" type="text" />
+            </div>
+
+            <div>
+                <label for="age">Age:</label>
+                <input id="age" type="number" />
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input id="password" type="password">
+            </div>
+
+            <div>
+                <label>Select a date:</label>
+                <input type="date">
+            </div>
+
+            <div>
+                <label>Color:</label>
+                <input type="color">
+            </div>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea maxlenght="5"></textarea>
+            </div>
+
+            <div>
+                <label for="select">Product Type:</label>
+                <select id="select">
+                    <option value="option1">option 1</option>
+                    <option value="option2">option 2</option>
+                    <option value="option3">option 3</option>
+                </select>
+            </div>
+
+            <div>
+                  <label for="time">Time:</label>
+                  <input id="time" type="time"/>
+            </div>
+
+            <div>
+                <label for="status">Status:</label>
+                active <input name="status" type="radio" value="active"/>
+                inactive <input  name="status" type="radio" value="inactive"/>
+            </div>
+
+            <div>
+                <label for="">Select a Pet:</label>
+                Dog <input type="checkbox">
+                Cat <input type="checkbox">
+                Turtle <input type="checkbox">
+            </div>
+
+            <button>Confirm</button>
+            <button disabled>Cancel</button>
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

@@ -13,6 +13,12 @@
 color: white;
 }
 
+.bar-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
 body{
 font-family: "Roboto", sans-serif;
 }
@@ -31,6 +37,8 @@ h1,h2,h3{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 .about-container {
     display: flex;
@@ -42,15 +50,20 @@ h1,h2,h3{
     gap: 20px;
 }
 
-/* houses */
 .houses-item {
     background-color: #DEDEDE;
-    margin-right: 10px;
+    /*margin: 10px; */
+    width: 100%;
 }
 
 .houses-item-img {
     width: 100%;
     height: auto;
+    background-size: cover;
+}
+
+.houses-item-img img {
+    width: 100%;
 }
 
 .houses-item-text {
@@ -85,3 +98,65 @@ h1,h2,h3{
     margin-top: 20px;
     border-radius: 5px;
 }
+
+/* contact */
+.contact-header{
+    background-color: orange;
+    height: 150px;
+    color: black;
+}
+.contact-header a {
+    color: black;
+}
+.contact-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.form-container{
+    background-color: #DEDEDE;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.legend{
+    font-size: 16px;
+}
+fieldset{
+    border: 1px solid gray ;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+footer{
+    background-color: #DEDEDE;
+    padding: 20px;
+    border: 10px;
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-tab{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80px;
+}
+.social{
+    border-style: solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a:hover,a:visited { color:#000; }
