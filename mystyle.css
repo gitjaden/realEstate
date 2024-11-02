@@ -131,8 +131,8 @@ fieldset{
     border: 1px solid gray ;
     padding: 20px;
     border-radius: 10px;
-
 }
+
 footer{
     background-color: #DEDEDE;
     padding: 20px;
@@ -160,3 +160,34 @@ footer{
     
 }
 a:hover,a:visited { color:#000; }
+.blog{
+    text-align: center;
+}
+.img-blog {
+margin-top: 10px;
+width: 90%;
+}
+
+@media (max-width: 600px) {
+    .header {
+        background-color: #d719d7;
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .about-us {
+     font-size: 1.5rem;
+     text-align: center
+    }
+    .img-realestate {
+        width: 100%;
+    }
+}
+.img-realestate {
+    width: 100%;
+}
+ @media (max-width:600px) {
+    .blog {
+      font-size: 1.5rem;
+    }
+ }
